@@ -1,0 +1,21 @@
+Metadata-Version: 2.4
+Name: resume-tailor
+Version: 0.1.0
+Summary: Truthfully re-present a resume against a job description — no fabrication.
+Requires-Python: >=3.11
+Requires-Dist: pydantic>=2
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: httpx
+Requires-Dist: fastapi
+Requires-Dist: uvicorn[standard]
+Requires-Dist: python-dotenv
+Requires-Dist: python-docx
+Provides-Extra: semantic
+Requires-Dist: sentence-transformers; extra == "semantic"
+Provides-Extra: gemini
+Requires-Dist: google-genai; extra == "gemini"
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: ruff; extra == "dev"

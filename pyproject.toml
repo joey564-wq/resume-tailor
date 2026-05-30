@@ -42,3 +42,5 @@ select = ["E", "F", "I", "UP", "B", "SIM"]
 # FastAPI's dependency-injection pattern intentionally calls Depends() in
 # argument defaults; this is idiomatic, not a bug.
 extend-immutable-calls = ["fastapi.Depends"]
+[tool.setuptools]
+packages = ["resume_tailor", "api"]
