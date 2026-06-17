@@ -100,7 +100,8 @@ HARD RULES — obey every one:
 JSON schema:
 {"items":[{"requirement_id":"<id>","requirement_text":"<text>","suggestions":[
   {"kind":"certification|course|project|experience","title":"<short>",
-   "detail":"<one sentence on what it is / why it helps>","effort":"weekend|weeks|months"}]}]}
+   "detail":"<one sentence on what it is / why it helps>",
+   "effort":"weekend|weeks|months"}]}]}
 """
 
 

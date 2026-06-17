@@ -12,7 +12,7 @@ import json
 from fastapi.testclient import TestClient
 
 from api.main import app, get_llm, get_provider
-from resume_tailor import analyze_gap, JobDescription, Resume
+from resume_tailor import JobDescription, Resume, analyze_gap
 from resume_tailor.embeddings import TfidfEmbeddingProvider
 from resume_tailor.models import (
     Bullet,
